@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+
+<html lang="ru" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Программирование на языке Java &#8212; документация Java Programming </title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=372fde1a"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/translations.js?v=cd1d70c9"></script>
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="java">
+<h1>Программирование на языке Java<a class="headerlink" href="#java" title="Ссылка на этот заголовок">¶</a></h1>
+<nav class="contents local" id="id1">
+<ul class="simple">
+<li><p><a class="reference internal" href="#id2" id="id90">1. Обязательные данные</a></p></li>
+<li><p><a class="reference internal" href="#id3" id="id91">2. Информация о преподавателе</a></p></li>
+<li><p><a class="reference internal" href="#id4" id="id92">3. Промежуточная аттестация</a></p></li>
+<li><p><a class="reference internal" href="#id5" id="id93">2023/2024 учебный год 3 модуль</a></p></li>
+<li><p><a class="reference internal" href="#id6" id="id94">2023/2024 учебный год 4 модуль</a></p></li>
+<li><p><a class="reference internal" href="#id7" id="id95">4. Цель курса</a></p></li>
+<li><p><a class="reference internal" href="#id8" id="id96">5. Конспект лекций</a></p></li>
+</ul>
+</nav>
+<section id="id2">
+<h2><a class="toc-backref" href="#id90" role="doc-backlink">1. Обязательные данные</a><a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p><strong>Часы</strong></p></td>
+<td><p>84</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Язык</strong></p></td>
+<td><p>русский</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Кредиты</strong></p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Преподаватель</strong></p></td>
+<td><p>Лейкин Максим Валентинович</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Где читается</strong></p></td>
+<td><p>ФИМКН (Нижний Новгород)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Направление</strong></p></td>
+<td><p>09.03.04. Программная инженерия</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id3">
+<h2><a class="toc-backref" href="#id91" role="doc-backlink">2. Информация о преподавателе</a><a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>ФИО:</strong> Лейкин Максим Валентинович</p></li>
+<li><p><strong>Учёная степень:</strong> Кандидат физико-математических наук</p></li>
+</ul>
+</section>
+<section id="id4">
+<h2><a class="toc-backref" href="#id92" role="doc-backlink">3. Промежуточная аттестация</a><a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h2>
+</section>
+<section id="id5">
+<h2><a class="toc-backref" href="#id93" role="doc-backlink">2023/2024 учебный год 3 модуль</a><a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Форма контроля:</strong> Практическая работа</p></li>
+<li><p><strong>Вес в итоговой оценке:</strong> 1</p></li>
+</ul>
+</section>
+<section id="id6">
+<h2><a class="toc-backref" href="#id94" role="doc-backlink">2023/2024 учебный год 4 модуль</a><a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Форма контроля:</strong> Практическая работа + Экзамен</p></li>
+<li><p><strong>Вес в итоговой оценке:</strong> 0.6 (Практическая работа) + 0.4 (Экзамен)</p></li>
+</ul>
+</section>
+<section id="id7">
+<h2><a class="toc-backref" href="#id95" role="doc-backlink">4. Цель курса</a><a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Целями освоения данной дисциплины являются как закрепление теоретических знаний в области объектно-ориентированного программирования, так и получение практических навыков программирования на языке JAVA с использованием стандартных средств раз-работки.</p>
+</section>
+<section id="id8">
+<h2><a class="toc-backref" href="#id96" role="doc-backlink">5. Конспект лекций</a><a class="headerlink" href="#id8" title="Ссылка на этот заголовок">¶</a></h2>
+</section>
+</section>
+<section id="id9">
+<h1>Лекция 1. Введение в Java<a class="headerlink" href="#id9" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id10">
+<h2>1. История Java<a class="headerlink" href="#id10" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Создан в 1991 году командой Sun Microsystems (Джеймс Гослинг).</p></li>
+<li><p>Первоначальное название — Oak, переименован в Java в 1995.</p></li>
+<li><p>Ключевой принцип: <strong>«Write Once, Run Anywhere»</strong> (WORA) благодаря JVM.</p></li>
+</ul>
+</section>
+<section id="id11">
+<h2>2. Особенности Java<a class="headerlink" href="#id11" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Переносимость</strong>: Байт-код выполняется на любой платформе с JVM.</p></li>
+<li><p><strong>Объектная ориентированность</strong>: Все сущности — объекты (кроме примитивов).</p></li>
+<li><p><strong>Надежность</strong>: Сборка мусора, строгая типизация, обработка исключений.</p></li>
+<li><p><strong>Многопоточность</strong>: Встроенная поддержка через класс Thread.</p></li>
+<li><p><strong>Безопасность</strong>: JVM ограничивает доступ к ресурсам.</p></li>
+<li><p><strong>Коллекции</strong>: Стандартизированные структуры данных (List, Set, Map).</p></li>
+<li><p><strong>GUI</strong>: Библиотеки AWT, Swing, JavaFX.</p></li>
+</ul>
+</section>
+<section id="id12">
+<h2>3. Инструменты разработки<a class="headerlink" href="#id12" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>JDK</strong>: Включает компилятор (javac), JVM (java), утилиты (javadoc).</p></li>
+<li><p><strong>IDE</strong>: IntelliJ IDEA, Eclipse, NetBeans.</p></li>
+</ul>
+</section>
+<section id="id13">
+<h2>4. Пример программы<a class="headerlink" href="#id13" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">HelloWorld</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Hello, World!&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="id14">
+<h1>Лекция 2. Синтаксис Java<a class="headerlink" href="#id14" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id15">
+<h2>1. Лексические элементы<a class="headerlink" href="#id15" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Комментарии</strong>: //, /* <em>/, /*</em> <a href="#id16"><span class="problematic" id="id17">*</span></a>/ (для документации).</p></li>
+<li><p><strong>Идентификаторы</strong>: Начинаются с буквы, _, $; чувствительны к регистру.</p></li>
+<li><p><strong>Ключевые слова</strong>: public, class, static, void и др.</p></li>
+</ul>
+</section>
+<section id="id18">
+<h2>2. Типы данных<a class="headerlink" href="#id18" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Примитивные</strong>: int, double, char, boolean и др.</p></li>
+<li><p><strong>Ссылочные</strong>: Классы, массивы, интерфейсы.</p></li>
+<li><p><strong>Литералы</strong>:
+- Целочисленные: 10, 0xFF, 0b1010.
+- Вещественные: 3.14, 1e-5.
+- Символьные: „a“, „\n“.</p></li>
+</ul>
+</section>
+<section id="id19">
+<h2>3. Переменные и область видимости<a class="headerlink" href="#id19" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Объявление: int x = 10;.</p></li>
+<li><p>Область действия: Блоки кода ({}), методы, классы.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h2>4. Операции<a class="headerlink" href="#id20" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Арифметические</strong>: +, -, <a href="#id21"><span class="problematic" id="id22">*</span></a>, /, %.</p></li>
+<li><p><strong>Логические</strong>: &amp;&amp;, ||, !.</p></li>
+<li><p><strong>Битовые</strong>: &amp;, <a href="#id23"><span class="problematic" id="id24">|</span></a>, ^, &lt;&lt;, &gt;&gt;, &gt;&gt;&gt;.</p></li>
+<li><p><strong>Приоритет операций</strong>: Умножение перед сложением, скобки изменяют порядок.</p></li>
+</ul>
+</section>
+<section id="id25">
+<h2>5. Управляющие конструкции<a class="headerlink" href="#id25" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Условные</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+
+<span class="k">switch</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">case</span><span class="w"> </span><span class="mi">1</span><span class="p">:</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="k">break</span><span class="p">;</span><span class="w"> </span><span class="k">default</span><span class="p">:</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Циклы</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+
+<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+
+<span class="k">do</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id26">
+<h2>6. Массивы<a class="headerlink" href="#id26" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Объявление:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span><span class="o">[]</span><span class="w"> </span><span class="n">arr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="kt">int</span><span class="o">[</span><span class="mi">5</span><span class="o">]</span><span class="p">;</span>
+<span class="kt">int</span><span class="o">[][]</span><span class="w"> </span><span class="n">matrix</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{{</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">},</span><span class="w"> </span><span class="p">{</span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">}};</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id27">
+<h2>7. Преобразование типов<a class="headerlink" href="#id27" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Автоматическое</strong>: int → long.</p></li>
+<li><p><strong>Явное</strong>: (int) 3.14.</p></li>
+</ul>
+</section>
+</section>
+<section id="id28">
+<h1>Лекция 3. Классы и интерфейсы в Java<a class="headerlink" href="#id28" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id29">
+<h2>1. Основы классов<a class="headerlink" href="#id29" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Структура класса</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">modifier</span><span class="o">&gt;</span><span class="w"> </span><span class="kd">class</span> <span class="err">&lt;</span><span class="nc">ClassName</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="o">[</span><span class="n">modifier</span><span class="o">]</span><span class="w"> </span><span class="o">&lt;</span><span class="n">type</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&lt;</span><span class="n">instanceVariable</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="w">    </span><span class="o">[</span><span class="n">modifier</span><span class="o">]</span><span class="w"> </span><span class="o">&lt;</span><span class="n">type</span><span class="o">&gt;</span><span class="w"> </span><span class="o">&lt;</span><span class="n">method</span><span class="o">&gt;</span><span class="p">(</span><span class="o">&lt;</span><span class="n">arguments</span><span class="o">&gt;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Пример класса</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">class</span> <span class="nc">Point</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">;</span>
+<span class="w">    </span><span class="n">Point</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">x</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="c1">// Конструктор</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">getX</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">x</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="c1">// Метод</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id30">
+<h2>2. Создание объектов<a class="headerlink" href="#id30" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Ссылки и объекты</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Point</span><span class="w"> </span><span class="n">p1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Point</span><span class="p">();</span><span class="w"> </span><span class="c1">// Создание объекта</span>
+<span class="n">Point</span><span class="w"> </span><span class="n">p2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">p1</span><span class="p">;</span><span class="w"> </span><span class="c1">// p2 ссылается на p1</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="overloading">
+<h2>3. Перегрузка методов (Overloading)<a class="headerlink" href="#overloading" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Методы с одинаковыми именами, но разными параметрами:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">void</span><span class="w"> </span><span class="nf">test</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+<span class="kt">void</span><span class="w"> </span><span class="nf">test</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="static">
+<h2>4. Модификатор static<a class="headerlink" href="#static" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Статические переменные и методы</strong>:
+- Существуют в единственном экземпляре.
+- Обращение: ClassName.methodName().</p></li>
+<li><p><strong>Статические блоки</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">static</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="c1">// Выполняется при загрузке класса</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="this">
+<h2>5. Ключевое слово this<a class="headerlink" href="#this" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Используется для:
+- Разрешения конфликтов имён (например, this.x = x).
+- Вызова одного конструктора из другого:</p>
+<blockquote>
+<div><div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Rectangle</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">this</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="id31">
+<h2>6. Вложенные классы<a class="headerlink" href="#id31" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Статические вложенные классы</strong>:
+- Не имеют доступа к нестатическим членам внешнего класса.</p></li>
+<li><p><strong>Нестатические (inner classes)</strong>:
+- Существуют только в контексте объекта внешнего класса.</p></li>
+</ul>
+</section>
+<section id="id32">
+<h2>7. Наследование<a class="headerlink" href="#id32" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Синтаксис</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">class</span> <span class="nc">SubClass</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">SuperClass</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Конструкторы</strong>:
+- Конструктор суперкласса вызывается первым (используется super()).
+- Пример:</p>
+<blockquote>
+<div><div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Point3D</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">z</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">super</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">);</span><span class="w"> </span><span class="c1">// Вызов конструктора Point</span>
+<span class="w">    </span><span class="k">this</span><span class="p">.</span><span class="na">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">z</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="id33">
+<h2>8. Абстрактные классы и методы<a class="headerlink" href="#id33" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Абстрактный метод</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">abstract</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">methodName</span><span class="p">();</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Абстрактный класс</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">abstract</span><span class="w"> </span><span class="kd">class</span> <span class="nc">ClassName</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id34">
+<h2>9. Интерфейсы<a class="headerlink" href="#id34" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Определение</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">interface</span> <span class="nc">InterfaceName</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="nf">method</span><span class="p">();</span><span class="w"> </span><span class="c1">// Абстрактный метод</span>
+<span class="w">    </span><span class="k">default</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">defaultMethod</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="c1">// Дефолтный метод</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Реализация</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">class</span> <span class="nc">ClassName</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">InterfaceName</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="enum">
+<h2>10. Перечисления (enum)<a class="headerlink" href="#enum" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">enum</span><span class="w"> </span><span class="n">Season</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">WINTER</span><span class="p">,</span><span class="w"> </span><span class="n">SPRING</span><span class="p">,</span><span class="w"> </span><span class="n">SUMMER</span><span class="p">,</span><span class="w"> </span><span class="n">AUTUMN</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Методы</strong>:
+- values(): возвращает все элементы.
+- valueOf(«WINTER»): возвращает элемент по имени.</p></li>
+</ul>
+</section>
+<section id="id35">
+<h2>11. Пакеты<a class="headerlink" href="#id35" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Объявление</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kn">package</span><span class="w"> </span><span class="nn">pkg1.pkg2</span><span class="p">;</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Импорт</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pkg1.ClassName</span><span class="p">;</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id36">
+<h2>12. Модификаторы доступа<a class="headerlink" href="#id36" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>public: доступ везде.</p></li>
+<li><p>private: только внутри класса.</p></li>
+<li><p>protected: доступ в пакете и подклассах.</p></li>
+<li><p>&lt;default&gt;: доступ только в пакете.</p></li>
+</ul>
+</section>
+<section id="id37">
+<h2>13. Методы с переменным числом аргументов<a class="headerlink" href="#id37" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Синтаксис</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">void</span><span class="w"> </span><span class="nf">methodName</span><span class="p">(</span><span class="kt">int</span><span class="p">...</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="final">
+<h2>14. Final<a class="headerlink" href="#final" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>final для переменных: неизменяемое значение.</p></li>
+<li><p>final для методов: запрет переопределения.</p></li>
+<li><p>final для классов: запрет наследования.</p></li>
+</ul>
+</section>
+</section>
+<section id="id38">
+<h1>Лекция 4. Обработка исключений в Java<a class="headerlink" href="#id38" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id39">
+<h2>1. Типы ошибок<a class="headerlink" href="#id39" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Синтаксические</strong>: Ловятся компилятором.</p></li>
+<li><p><strong>Логические</strong>: Обнаруживаются при тестировании.</p></li>
+<li><p><strong>Времени выполнения</strong>: Возникают при выполнении программы (например, деление на ноль).</p></li>
+</ul>
+</section>
+<section id="id40">
+<h2>2. Исключения<a class="headerlink" href="#id40" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Исключение — это объект, описывающий ошибку во время выполнения.</p></li>
+<li><p>Может быть сгенерировано JVM или вручную (throw).</p></li>
+</ul>
+</section>
+<section id="try-catch">
+<h2>3. Блоки try-catch<a class="headerlink" href="#try-catch" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Синтаксис</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// Код, который может вызвать исключение</span>
+<span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">ExceptionType</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// Обработка исключения</span>
+<span class="p">}</span><span class="w"> </span><span class="k">finally</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// Код, выполняемый в любом случае</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Особенности</strong>:
+- Управление не возвращается в try после catch.
+- catch-блоки обрабатываются сверху вниз (подклассы исключений должны быть раньше суперклассов).
+- finally выполняется всегда, даже если исключение не возникло.</p></li>
+</ul>
+</section>
+<section id="id41">
+<h2>4. Иерархия исключений<a class="headerlink" href="#id41" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Error: Критические ошибки (например, OutOfMemoryError), обычно не обрабатываются.</p></li>
+<li><p>RuntimeException (unchecked): Не требуют обязательной обработки (например, NullPointerException).</p></li>
+<li><p>Exception (checked): Требуют обработки или объявления в throws (например, IOException).</p></li>
+</ul>
+</section>
+<section id="id42">
+<h2>5. Генерация исключений<a class="headerlink" href="#id42" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Вручную</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">throw</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Exception</span><span class="p">(</span><span class="s">&quot;Описание ошибки&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Повторное выбрасывание</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">Exception</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Ошибка&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="k">throw</span><span class="w"> </span><span class="n">e</span><span class="p">;</span><span class="w"> </span><span class="c1">// Повторное выбрасывание</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="catch-or-specify">
+<h2>6. Правило «Catch or Specify»<a class="headerlink" href="#catch-or-specify" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Для checked-исключений:
+- Либо обрабатывать в try-catch.
+- Либо объявлять в throws метода:</p>
+<blockquote>
+<div><div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">void</span><span class="w"> </span><span class="nf">method</span><span class="p">()</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">IOException</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="try-with-resources">
+<h2>7. Try-with-resources<a class="headerlink" href="#try-with-resources" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Автоматическое закрытие ресурсов (реализующих AutoCloseable):</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">BufferedReader</span><span class="w"> </span><span class="n">br</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">BufferedReader</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">FileReader</span><span class="p">(</span><span class="s">&quot;file.txt&quot;</span><span class="p">)))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// Работа с ресурсом</span>
+<span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">IOException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="c1">// Обработка исключения</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Ресурсы закрываются в обратном порядке их создания.</p></li>
+</ul>
+</section>
+<section id="id43">
+<h2>8. Подавленные исключения<a class="headerlink" href="#id43" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Если исключения возникают и в try, и при закрытии ресурса, исключение из try выбрасывается, а остальные подавляются (доступны через getSuppressed()).</p></li>
+</ul>
+</section>
+<section id="id44">
+<h2>9. Пример пользовательского исключения<a class="headerlink" href="#id44" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Создание checked-исключения:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">class</span> <span class="nc">MyException</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">MyException</span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">message</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+</section>
+<section id="id45">
+<h1>Лекция 5. Консольный ввод-вывод в Java<a class="headerlink" href="#id45" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id46">
+<h2>1. Потоки ввода-вывода<a class="headerlink" href="#id46" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Байтовые потоки</strong> (InputStream, OutputStream):
+- Работают с байтами (двоичные данные).
+- Примеры:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>FileInputStream/FileOutputStream — чтение/запись файлов.</p></li>
+<li><p>ByteArrayInputStream/ByteArrayOutputStream — работа с массивами байтов.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>Символьные потоки</strong> (Reader, Writer):
+- Работают с символами (текст в Unicode).
+- Примеры:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>FileReader/FileWriter — чтение/запись текстовых файлов.</p></li>
+<li><p>InputStreamReader/OutputStreamWriter — преобразуют байты в символы.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="id47">
+<h2>2. Примеры использования<a class="headerlink" href="#id47" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Чтение файла</strong> (FileInputStream):</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">InputStream</span><span class="w"> </span><span class="n">in</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">FileInputStream</span><span class="p">(</span><span class="s">&quot;file.txt&quot;</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">data</span><span class="p">;</span>
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">((</span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">in</span><span class="p">.</span><span class="na">read</span><span class="p">())</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="o">-</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">((</span><span class="kt">char</span><span class="p">)</span><span class="w"> </span><span class="n">data</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">IOException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">e</span><span class="p">.</span><span class="na">printStackTrace</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Запись в файл</strong> (FileOutputStream):</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">OutputStream</span><span class="w"> </span><span class="n">out</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">FileOutputStream</span><span class="p">(</span><span class="s">&quot;output.txt&quot;</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">out</span><span class="p">.</span><span class="na">write</span><span class="p">(</span><span class="s">&quot;Hello, Java!&quot;</span><span class="p">.</span><span class="na">getBytes</span><span class="p">());</span>
+<span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">IOException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">e</span><span class="p">.</span><span class="na">printStackTrace</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id48">
+<h2>3. Буферизованные потоки<a class="headerlink" href="#id48" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Увеличивают производительность за счёт буферизации:
+- BufferedInputStream/BufferedOutputStream — для байтов.
+- BufferedReader/BufferedWriter — для символов.</p></li>
+<li><p>Пример (BufferedReader):</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">BufferedReader</span><span class="w"> </span><span class="n">br</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">BufferedReader</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">FileReader</span><span class="p">(</span><span class="s">&quot;file.txt&quot;</span><span class="p">)))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">line</span><span class="p">;</span>
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">((</span><span class="n">line</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">br</span><span class="p">.</span><span class="na">readLine</span><span class="p">())</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">line</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">IOException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">e</span><span class="p">.</span><span class="na">printStackTrace</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="scanner">
+<h2>4. Класс Scanner<a class="headerlink" href="#scanner" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Удобен для чтения ввода с консоли или файлов:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Scanner</span><span class="w"> </span><span class="n">sc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Scanner</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">in</span><span class="p">);</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Введите число: &quot;</span><span class="p">);</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">num</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sc</span><span class="p">.</span><span class="na">nextInt</span><span class="p">();</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&quot;Введите строку: &quot;</span><span class="p">);</span>
+<span class="n">String</span><span class="w"> </span><span class="n">str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sc</span><span class="p">.</span><span class="na">next</span><span class="p">();</span>
+<span class="n">sc</span><span class="p">.</span><span class="na">close</span><span class="p">();</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="file">
+<h2>5. Класс File<a class="headerlink" href="#file" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Представляет путь к файлу/директории:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">File</span><span class="w"> </span><span class="n">file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">File</span><span class="p">(</span><span class="s">&quot;example.txt&quot;</span><span class="p">);</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Существует: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">file</span><span class="p">.</span><span class="na">exists</span><span class="p">());</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Размер: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">file</span><span class="p">.</span><span class="na">length</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot; байт&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id49">
+<h2>6. Сериализация объектов<a class="headerlink" href="#id49" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Сериализация</strong> — сохранение объекта в байтовый поток.</p></li>
+<li><p><strong>Десериализация</strong> — восстановление объекта из потока.</p></li>
+<li><p><strong>Интерфейс Serializable</strong>:
+- Маркерный интерфейс (не содержит методов).
+- Пример:</p>
+<blockquote>
+<div><div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">class</span> <span class="nc">Person</span><span class="w"> </span><span class="kd">implements</span><span class="w"> </span><span class="n">Serializable</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">String</span><span class="w"> </span><span class="n">name</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">transient</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">age</span><span class="p">;</span><span class="w"> </span><span class="c1">// Поле не будет сериализовано</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Сохранение объекта</strong> (ObjectOutputStream):</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">ObjectOutputStream</span><span class="w"> </span><span class="n">out</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ObjectOutputStream</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">FileOutputStream</span><span class="p">(</span><span class="s">&quot;person.ser&quot;</span><span class="p">)))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">out</span><span class="p">.</span><span class="na">writeObject</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">Person</span><span class="p">(</span><span class="s">&quot;Alice&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">30</span><span class="p">));</span>
+<span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">IOException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">e</span><span class="p">.</span><span class="na">printStackTrace</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Восстановление объекта</strong> (ObjectInputStream):</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">ObjectInputStream</span><span class="w"> </span><span class="n">in</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ObjectInputStream</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">FileInputStream</span><span class="p">(</span><span class="s">&quot;person.ser&quot;</span><span class="p">)))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">Person</span><span class="w"> </span><span class="n">p</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">Person</span><span class="p">)</span><span class="w"> </span><span class="n">in</span><span class="p">.</span><span class="na">readObject</span><span class="p">();</span>
+<span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">p</span><span class="p">.</span><span class="na">getName</span><span class="p">());</span>
+<span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">IOException</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">ClassNotFoundException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">e</span><span class="p">.</span><span class="na">printStackTrace</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id50">
+<h2>7. Особенности сериализации<a class="headerlink" href="#id50" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>transient — исключает поле из сериализации.</p></li>
+<li><p>serialVersionUID — контроль версий класса:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">serialVersionUID</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1L</span><span class="p">;</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Кастомная сериализация</strong>:
+- Переопределение writeObject и readObject.
+- Пример:</p>
+<blockquote>
+<div><div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">private</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">writeObject</span><span class="p">(</span><span class="n">ObjectOutputStream</span><span class="w"> </span><span class="n">out</span><span class="p">)</span><span class="w"> </span><span class="kd">throws</span><span class="w"> </span><span class="n">IOException</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">out</span><span class="p">.</span><span class="na">defaultWriteObject</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="id51">
+<h2>8. Производительность и советы<a class="headerlink" href="#id51" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Буферизация</strong> ускоряет ввод-вывод.</p></li>
+<li><p><strong>Закрытие потоков</strong> — используйте try-with-resources.</p></li>
+<li><p><strong>Сериализация</strong>:
+- Избегайте сериализации больших объектов.
+- Закрывайте потоки после использования.</p></li>
+</ul>
+</section>
+</section>
+<section id="id52">
+<h1>Лекция 6. Стандартная библиотека Java<a class="headerlink" href="#id52" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="object">
+<h2>1. Класс Object<a class="headerlink" href="#object" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Методы</strong>:
+- clone(): Создает копию объекта (требует Cloneable).
+- equals(): Сравнивает объекты (должен быть переопределён вместе с hashCode()).
+- hashCode(): Возвращает хэш-код объекта.
+- toString(): Возвращает строковое представление объекта.
+- finalize(): Не рекомендуется переопределять (устарел).</p></li>
+<li><p><strong>Пример equals() и hashCode()</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="nd">@Override</span>
+<span class="kd">public</span><span class="w"> </span><span class="kt">boolean</span><span class="w"> </span><span class="nf">equals</span><span class="p">(</span><span class="n">Object</span><span class="w"> </span><span class="n">o</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">o</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="k">this</span><span class="p">)</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="p">(</span><span class="n">o</span><span class="w"> </span><span class="k">instanceof</span><span class="w"> </span><span class="n">PhoneNumber</span><span class="p">))</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span>
+<span class="w">    </span><span class="n">PhoneNumber</span><span class="w"> </span><span class="n">pn</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">PhoneNumber</span><span class="p">)</span><span class="w"> </span><span class="n">o</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">pn</span><span class="p">.</span><span class="na">areaCode</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">areaCode</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">pn</span><span class="p">.</span><span class="na">exchange</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">exchange</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nd">@Override</span>
+<span class="kd">public</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">hashCode</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">17</span><span class="p">;</span>
+<span class="w">    </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">31</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">areaCode</span><span class="p">;</span>
+<span class="w">    </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">31</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">exchange</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">result</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id53">
+<h2>2. Классы-оболочки<a class="headerlink" href="#id53" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Примеры</strong>: Integer, Double, Boolean.</p></li>
+<li><p><strong>Автоупаковка/распаковка</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Integer</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">12</span><span class="p">;</span><span class="w"> </span><span class="c1">// Автоупаковка</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">x</span><span class="p">;</span><span class="w"> </span><span class="c1">// Автораспаковка</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="math">
+<h2>3. Класс Math<a class="headerlink" href="#math" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Константы</strong>: Math.PI, Math.E.</p></li>
+<li><p><strong>Методы</strong>: sin(), cos(), pow(), sqrt().</p></li>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">double</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Math</span><span class="p">.</span><span class="na">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">);</span><span class="w"> </span><span class="c1">// 8.0</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="string">
+<h2>4. Класс String<a class="headerlink" href="#string" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Неизменяемость</strong>: Строки нельзя изменить после создания.</p></li>
+<li><p><strong>Методы</strong>:
+- length(), charAt(), substring(), indexOf().
+- equals(): Сравнение содержимого (не ==).</p></li>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">String</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Hello&quot;</span><span class="p">;</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">s</span><span class="p">.</span><span class="na">substring</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">));</span><span class="w"> </span><span class="c1">// &quot;el&quot;</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="stringbuilder-stringbuffer">
+<h2>5. StringBuilder и StringBuffer<a class="headerlink" href="#stringbuilder-stringbuffer" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Изменяемые строки</strong>:
+- StringBuilder: Быстрее, но не потокобезопасен.
+- StringBuffer: Потокобезопасен.</p></li>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">StringBuilder</span><span class="w"> </span><span class="n">sb</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">StringBuilder</span><span class="p">();</span>
+<span class="n">sb</span><span class="p">.</span><span class="na">append</span><span class="p">(</span><span class="s">&quot;Hello&quot;</span><span class="p">).</span><span class="na">append</span><span class="p">(</span><span class="s">&quot; World&quot;</span><span class="p">);</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">sb</span><span class="p">.</span><span class="na">toString</span><span class="p">());</span><span class="w"> </span><span class="c1">// &quot;Hello World&quot;</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="random">
+<h2>6. Класс Random<a class="headerlink" href="#random" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Генерация случайных чисел</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Random</span><span class="w"> </span><span class="n">rand</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Random</span><span class="p">();</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">num</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">rand</span><span class="p">.</span><span class="na">nextInt</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span><span class="w"> </span><span class="c1">// 0..99</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="runtime-system">
+<h2>7. Классы Runtime и System<a class="headerlink" href="#runtime-system" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Управление памятью и процессы</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Runtime</span><span class="w"> </span><span class="n">rt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Runtime</span><span class="p">.</span><span class="na">getRuntime</span><span class="p">();</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">rt</span><span class="p">.</span><span class="na">freeMemory</span><span class="p">());</span><span class="w"> </span><span class="c1">// Свободная память</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+</section>
+<section id="generics">
+<h1>Лекция 7. Параметризация типов (Generics)<a class="headerlink" href="#generics" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id54">
+<h2>1. Зачем нужны дженерики?<a class="headerlink" href="#id54" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Безопасность типов</strong>: Ошибки обнаруживаются на этапе компиляции.</p></li>
+<li><p><strong>Универсальность</strong>: Обобщённые алгоритмы для разных типов.</p></li>
+</ul>
+</section>
+<section id="id55">
+<h2>2. Параметризованные классы<a class="headerlink" href="#id55" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Box</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="n">content</span><span class="p">;</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">put</span><span class="p">(</span><span class="n">T</span><span class="w"> </span><span class="n">item</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">this</span><span class="p">.</span><span class="na">content</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">item</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="nf">get</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">content</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Использование</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Box</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">intBox</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Box</span><span class="o">&lt;&gt;</span><span class="p">();</span>
+<span class="n">intBox</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">intBox</span><span class="p">.</span><span class="na">get</span><span class="p">();</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id56">
+<h2>3. Ограниченные типы<a class="headerlink" href="#id56" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">public</span><span class="w"> </span><span class="o">&lt;</span><span class="n">T</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">Number</span><span class="o">&gt;</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">inspect</span><span class="p">(</span><span class="n">T</span><span class="w"> </span><span class="n">item</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">item</span><span class="p">.</span><span class="na">doubleValue</span><span class="p">());</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="wildcards">
+<h2>4. Wildcards (подстановки)<a class="headerlink" href="#wildcards" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">printList</span><span class="p">(</span><span class="n">List</span><span class="o">&lt;?</span><span class="w"> </span><span class="kd">extends</span><span class="w"> </span><span class="n">Number</span><span class="o">&gt;</span><span class="w"> </span><span class="n">list</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">Number</span><span class="w"> </span><span class="n">n</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">list</span><span class="p">)</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="type-erasure">
+<h2>5. Очистка типов (Type Erasure)<a class="headerlink" href="#type-erasure" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Особенности</strong>:
+- Информация о типах удаляется после компиляции.
+- Нельзя создать массив дженериков (new T[10]).</p></li>
+</ul>
+</section>
+<section id="id57">
+<h2>6. Ограничения<a class="headerlink" href="#id57" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Нельзя параметризовать примитивы (Box&lt;int&gt;).</p></li>
+<li><p>Нельзя использовать instanceof с дженериками.</p></li>
+</ul>
+</section>
+</section>
+<section id="id58">
+<h1>Лекция 8. Коллекции в Java<a class="headerlink" href="#id58" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id59">
+<h2>1. Интерфейсы коллекций<a class="headerlink" href="#id59" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Collection: Базовый интерфейс для всех коллекций.</p></li>
+<li><p>List: Упорядоченная коллекция с дубликатами (ArrayList, LinkedList).</p></li>
+<li><p>Set: Уникальные элементы (HashSet, TreeSet).</p></li>
+<li><p>Map: Пары «ключ-значение» (HashMap, TreeMap).</p></li>
+<li><p>Queue/Deque: Очереди (LinkedList, PriorityQueue).</p></li>
+</ul>
+</section>
+<section id="id60">
+<h2>2. Основные методы<a class="headerlink" href="#id60" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>List:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">List</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">list</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">ArrayList</span><span class="o">&lt;&gt;</span><span class="p">();</span>
+<span class="n">list</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="s">&quot;A&quot;</span><span class="p">);</span>
+<span class="n">list</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span><span class="w"> </span><span class="c1">// &quot;A&quot;</span>
+</pre></div>
+</div>
+</li>
+<li><p>Set:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Set</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">set</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HashSet</span><span class="o">&lt;&gt;</span><span class="p">();</span>
+<span class="n">set</span><span class="p">.</span><span class="na">add</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="n">set</span><span class="p">.</span><span class="na">contains</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span><span class="w"> </span><span class="c1">// true</span>
+</pre></div>
+</div>
+</li>
+<li><p>Map:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Map</span><span class="o">&lt;</span><span class="n">String</span><span class="p">,</span><span class="w"> </span><span class="n">Integer</span><span class="o">&gt;</span><span class="w"> </span><span class="n">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">HashMap</span><span class="o">&lt;&gt;</span><span class="p">();</span>
+<span class="n">map</span><span class="p">.</span><span class="na">put</span><span class="p">(</span><span class="s">&quot;key&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">value</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">map</span><span class="p">.</span><span class="na">get</span><span class="p">(</span><span class="s">&quot;key&quot;</span><span class="p">);</span><span class="w"> </span><span class="c1">// 10</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id61">
+<h2>3. Итерация по коллекциям<a class="headerlink" href="#id61" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>For-each</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">String</span><span class="w"> </span><span class="n">s</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="n">list</span><span class="p">)</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">s</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Итератор</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Iterator</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;</span><span class="w"> </span><span class="n">it</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">list</span><span class="p">.</span><span class="na">iterator</span><span class="p">();</span>
+<span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">it</span><span class="p">.</span><span class="na">hasNext</span><span class="p">())</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">it</span><span class="p">.</span><span class="na">next</span><span class="p">());</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="collections">
+<h2>4. Алгоритмы (Collections класс)<a class="headerlink" href="#collections" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Сортировка</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Collections</span><span class="p">.</span><span class="na">sort</span><span class="p">(</span><span class="n">list</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Поиск</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="n">index</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Collections</span><span class="p">.</span><span class="na">binarySearch</span><span class="p">(</span><span class="n">list</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;A&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Перемешивание</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Collections</span><span class="p">.</span><span class="na">shuffle</span><span class="p">(</span><span class="n">list</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id62">
+<h2>5. Производительность<a class="headerlink" href="#id62" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>ArrayList: Быстрый доступ по индексу, медленные вставка/удаление.</p></li>
+<li><p>LinkedList: Быстрые вставка/удаление, медленный доступ по индексу.</p></li>
+<li><p>HashSet/HashMap: O(1) для основных операций.</p></li>
+<li><p>TreeSet/TreeMap: O(log n) для основных операций.</p></li>
+</ul>
+</section>
+</section>
+<section id="id63">
+<h1>Лекция 9. Сетевое программирование в Java<a class="headerlink" href="#id63" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id64">
+<h2>1. Основные понятия<a class="headerlink" href="#id64" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>IP-адреса</strong>: Уникальные числовые идентификаторы устройств в сети (например, 199.1.32.90).</p></li>
+<li><p><strong>DNS</strong>: Система доменных имен, преобразующая имена (например, www.example.com) в IP-адреса.</p></li>
+<li><p><strong>Порты</strong>: Логические каналы на одном хосте (от 0 до 65535). Примеры:
+- HTTP: 80
+- HTTPS: 443
+- FTP: 21.</p></li>
+</ul>
+</section>
+<section id="inetaddress">
+<h2>2. Класс InetAddress<a class="headerlink" href="#inetaddress" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Назначение</strong>: Представление IP-адресов и работа с DNS.</p></li>
+<li><p><strong>Методы</strong>:
+- getByName(String host): Возвращает InetAddress по имени хоста или IP-адресу.
+- getHostName(): Возвращает имя хоста.
+- getHostAddress(): Возвращает IP-адрес.</p></li>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">InetAddress</span><span class="w"> </span><span class="n">address</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">InetAddress</span><span class="p">.</span><span class="na">getByName</span><span class="p">(</span><span class="s">&quot;www.example.com&quot;</span><span class="p">);</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;IP: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">address</span><span class="p">.</span><span class="na">getHostAddress</span><span class="p">());</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="url">
+<h2>3. Класс URL<a class="headerlink" href="#url" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Назначение</strong>: Работа с Uniform Resource Locators (URL).</p></li>
+<li><p><strong>Методы</strong>:
+- openStream(): Открывает поток для чтения данных по URL.
+- getProtocol(), getHost(), getPort(): Разбор URL.</p></li>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">URL</span><span class="w"> </span><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">URL</span><span class="p">(</span><span class="s">&quot;http://example.com&quot;</span><span class="p">);</span>
+<span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">BufferedReader</span><span class="w"> </span><span class="n">reader</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">BufferedReader</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">InputStreamReader</span><span class="p">(</span><span class="n">url</span><span class="p">.</span><span class="na">openStream</span><span class="p">())))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">line</span><span class="p">;</span>
+<span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">((</span><span class="n">line</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">reader</span><span class="p">.</span><span class="na">readLine</span><span class="p">())</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kc">null</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">line</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="urlconnection">
+<h2>4. Класс URLConnection<a class="headerlink" href="#urlconnection" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Назначение</strong>: Управление соединением с сервером (чтение/запись данных).</p></li>
+<li><p><strong>Методы</strong>:
+- getInputStream(): Получение входного потока.
+- getOutputStream(): Получение выходного потока (для POST-запросов).
+- setDoOutput(true): Разрешение записи данных.</p></li>
+<li><p><strong>Пример (POST-запрос)</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">URL</span><span class="w"> </span><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">URL</span><span class="p">(</span><span class="s">&quot;http://example.com/api&quot;</span><span class="p">);</span>
+<span class="n">URLConnection</span><span class="w"> </span><span class="n">connection</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">url</span><span class="p">.</span><span class="na">openConnection</span><span class="p">();</span>
+<span class="n">connection</span><span class="p">.</span><span class="na">setDoOutput</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+<span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">OutputStream</span><span class="w"> </span><span class="n">os</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">connection</span><span class="p">.</span><span class="na">getOutputStream</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">os</span><span class="p">.</span><span class="na">write</span><span class="p">(</span><span class="s">&quot;data=example&quot;</span><span class="p">.</span><span class="na">getBytes</span><span class="p">());</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="httpurlconnection">
+<h2>5. Класс HttpURLConnection<a class="headerlink" href="#httpurlconnection" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Назначение</strong>: Расширенная работа с HTTP (поддержка методов GET, POST и др.).</p></li>
+<li><p><strong>Методы</strong>:
+- setRequestMethod(«GET/POST»): Установка метода запроса.
+- getResponseCode(): Получение HTTP-кода ответа (200, 404 и т.д.).</p></li>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">HttpURLConnection</span><span class="w"> </span><span class="n">httpConn</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">HttpURLConnection</span><span class="p">)</span><span class="w"> </span><span class="n">url</span><span class="p">.</span><span class="na">openConnection</span><span class="p">();</span>
+<span class="n">httpConn</span><span class="p">.</span><span class="na">setRequestMethod</span><span class="p">(</span><span class="s">&quot;GET&quot;</span><span class="p">);</span>
+<span class="kt">int</span><span class="w"> </span><span class="n">responseCode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">httpConn</span><span class="p">.</span><span class="na">getResponseCode</span><span class="p">();</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Response Code: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">responseCode</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="http">
+<h2>6. Протокол HTTP<a class="headerlink" href="#http" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Заголовки (Headers)</strong>:
+- Content-Type: Тип данных (например, text/html).
+- Content-Length: Размер данных.</p></li>
+<li><p><strong>Методы</strong>:
+- GET: Получение данных.
+- POST: Отправка данных.</p></li>
+<li><p><strong>Пример заголовков</strong>:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 1234
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="mime">
+<h2>7. MIME-типы<a class="headerlink" href="#mime" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Назначение</strong>: Определение формата данных (например, text/plain, image/jpeg).</p></li>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">String</span><span class="w"> </span><span class="n">mimeType</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">URLConnection</span><span class="p">.</span><span class="na">guessContentTypeFromName</span><span class="p">(</span><span class="s">&quot;file.jpg&quot;</span><span class="p">);</span>
+<span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;MIME Type: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">mimeType</span><span class="p">);</span><span class="w"> </span><span class="c1">// &quot;image/jpeg&quot;</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id65">
+<h2>8. Примеры кода<a class="headerlink" href="#id65" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Чтение данных с сервера</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">URL</span><span class="w"> </span><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">URL</span><span class="p">(</span><span class="s">&quot;http://example.com&quot;</span><span class="p">);</span>
+<span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">BufferedReader</span><span class="w"> </span><span class="n">reader</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">BufferedReader</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">InputStreamReader</span><span class="p">(</span><span class="n">url</span><span class="p">.</span><span class="na">openStream</span><span class="p">())))</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">reader</span><span class="p">.</span><span class="na">lines</span><span class="p">().</span><span class="na">forEach</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">::</span><span class="n">println</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Отправка данных на сервер</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">URL</span><span class="w"> </span><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">URL</span><span class="p">(</span><span class="s">&quot;http://example.com/api&quot;</span><span class="p">);</span>
+<span class="n">HttpURLConnection</span><span class="w"> </span><span class="n">conn</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">HttpURLConnection</span><span class="p">)</span><span class="w"> </span><span class="n">url</span><span class="p">.</span><span class="na">openConnection</span><span class="p">();</span>
+<span class="n">conn</span><span class="p">.</span><span class="na">setRequestMethod</span><span class="p">(</span><span class="s">&quot;POST&quot;</span><span class="p">);</span>
+<span class="n">conn</span><span class="p">.</span><span class="na">setDoOutput</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+<span class="k">try</span><span class="w"> </span><span class="p">(</span><span class="n">OutputStream</span><span class="w"> </span><span class="n">os</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">conn</span><span class="p">.</span><span class="na">getOutputStream</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">os</span><span class="p">.</span><span class="na">write</span><span class="p">(</span><span class="s">&quot;param=value&quot;</span><span class="p">.</span><span class="na">getBytes</span><span class="p">());</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id66">
+<h2>9. Обработка ошибок<a class="headerlink" href="#id66" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Исключения</strong>:
+- MalformedURLException: Некорректный URL.
+- IOException: Ошибки ввода/вывода.</p></li>
+<li><p><strong>Пример</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">URL</span><span class="w"> </span><span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">URL</span><span class="p">(</span><span class="s">&quot;http://invalid.url&quot;</span><span class="p">);</span>
+<span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">MalformedURLException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">err</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Некорректный URL: &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="na">getMessage</span><span class="p">());</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+</section>
+<section id="threads-concurrency">
+<h1>Лекция 10. Threads &amp; Concurrency<a class="headerlink" href="#threads-concurrency" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id67">
+<h2>1. Процессы и потоки<a class="headerlink" href="#id67" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Процесс имеет собственную среду исполнения и ресурсы.</p></li>
+<li><p>Потоки (threads) — легковесные процессы, выполняются внутри процесса и разделяют его ресурсы.</p></li>
+<li><p>Каждое Java-приложение имеет минимум один поток (main thread).</p></li>
+</ul>
+</section>
+<section id="id68">
+<h2>2. Создание потоков<a class="headerlink" href="#id68" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Два способа:
+- Наследование от класса Thread.
+- Реализация интерфейса Runnable (предпочтительнее).</p></li>
+<li><p>Запуск потока: метод start().</p></li>
+</ul>
+</section>
+<section id="id69">
+<h2>3. Управление потоками<a class="headerlink" href="#id69" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Приостановка: Thread.sleep().</p></li>
+<li><p>Прерывание: interrupt(), проверка через Thread.interrupted().</p></li>
+<li><p>Связывание: join() для ожидания завершения потока.</p></li>
+<li><p>Приоритеты: setPriority(), MIN_PRIORITY, MAX_PRIORITY, NORM_PRIORITY.</p></li>
+<li><p>Потоки-демоны: setDaemon(true), завершаются при остановке всех обычных потоков.</p></li>
+</ul>
+</section>
+<section id="id70">
+<h2>4. Проблемы многопоточности<a class="headerlink" href="#id70" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Race Condition: конфликты при одновременном доступе к данным.</p></li>
+<li><p>Ошибки целостности памяти: несогласованность данных между потоками.</p></li>
+<li><p>Отношение «happens-before»: гарантирует видимость изменений между потоками.</p></li>
+</ul>
+</section>
+<section id="id71">
+<h2>5. Синхронизация<a class="headerlink" href="#id71" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Мониторы объектов: synchronized методы и блоки.</p></li>
+<li><p>Реентерабельность: поток может повторно захватывать монитор.</p></li>
+<li><p>Атомарные операции: volatile переменные, классы AtomicInteger и др.</p></li>
+</ul>
+</section>
+<section id="deadlocks">
+<h2>6. Тупики (deadlocks)<a class="headerlink" href="#deadlocks" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Возникают при взаимной блокировке потоков.</p></li>
+<li><p>Методы борьбы: упорядочение ресурсов, алгоритм банкира.</p></li>
+</ul>
+</section>
+<section id="wait-set">
+<h2>7. Wait-set методы<a class="headerlink" href="#wait-set" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>wait(), notify(), notifyAll() для управления потоками.</p></li>
+<li><p>Вызываются только внутри synchronized блоков.</p></li>
+</ul>
+</section>
+<section id="java-util-concurrent">
+<h2>8. Пакет java.util.concurrent<a class="headerlink" href="#java-util-concurrent" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Executors: управление пулами потоков (ThreadPoolExecutor).</p></li>
+<li><p>Concurrent Collections: потокобезопасные коллекции (ConcurrentHashMap, CopyOnWriteArrayList).</p></li>
+<li><p>Blocking Queues: очереди с блокировкой (ArrayBlockingQueue).</p></li>
+<li><p>Atomics: атомарные операции (AtomicInteger).</p></li>
+<li><p>Locks: альтернативы synchronized (ReentrantLock).</p></li>
+<li><p>Semaphores: управление доступом к ресурсам.</p></li>
+</ul>
+</section>
+<section id="callable">
+<h2>9. Интерфейс Callable<a class="headerlink" href="#callable" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Аналог Runnable, но возвращает результат через Future.</p></li>
+<li><p>Позволяет отменять задачи (cancel()), проверять статус (isDone()).</p></li>
+</ul>
+</section>
+</section>
+<section id="lambdas-streams">
+<h1>Лекция 11. Lambdas &amp; Streams<a class="headerlink" href="#lambdas-streams" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id72">
+<h2>1. Лямбда-выражения<a class="headerlink" href="#id72" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Позволяют передавать функции как аргументы методов.</p></li>
+<li><p>Синтаксис: (параметры) -&gt; { тело }.</p></li>
+<li><p>Пример:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">list</span><span class="p">.</span><span class="na">forEach</span><span class="p">(</span><span class="n">n</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">n</span><span class="p">));</span>
+</pre></div>
+</div>
+</li>
+<li><p>Функциональные интерфейсы (например, Runnable, Comparator) — интерфейсы с одним абстрактным методом.</p></li>
+</ul>
+</section>
+<section id="stream-api">
+<h2>2. Stream API<a class="headerlink" href="#stream-api" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Обработка данных в функциональном стиле.</p></li>
+<li><p>Этапы:
+- <strong>Источник</strong> (коллекция, массив).
+- <strong>Промежуточные операции</strong> (filter, map, sorted).
+- <strong>Терминальные операции</strong> (forEach, collect, reduce).</p></li>
+<li><p>Пример:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">list</span><span class="p">.</span><span class="na">stream</span><span class="p">().</span><span class="na">filter</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">).</span><span class="na">mapToInt</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">x</span><span class="p">).</span><span class="na">sum</span><span class="p">();</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id73">
+<h2>3. Ссылки на методы<a class="headerlink" href="#id73" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Упрощение лямбд: System.out::println.</p></li>
+</ul>
+</section>
+</section>
+<section id="annotations">
+<h1>Лекция 12. Annotations<a class="headerlink" href="#annotations" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id74">
+<h2>1. Аннотации<a class="headerlink" href="#id74" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Метаданные для компилятора, JVM или инструментов.</p></li>
+<li><p>Примеры встроенных аннотаций:
+- &#64;Override — проверка переопределения метода.
+- &#64;Deprecated — отметка устаревшего кода.
+- &#64;SuppressWarnings — подавление предупреждений.</p></li>
+</ul>
+</section>
+<section id="id75">
+<h2>2. Создание аннотаций<a class="headerlink" href="#id75" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Пример:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="nd">@interface</span><span class="w"> </span><span class="n">Info</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="nf">author</span><span class="p">()</span><span class="w"> </span><span class="k">default</span><span class="w"> </span><span class="s">&quot;Anonymous&quot;</span><span class="p">;</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="nf">version</span><span class="p">();</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p>Мета-аннотации:
+- &#64;Retention — политика жизни аннотации.
+- &#64;Target — область применения (класс, метод и т.д.).</p></li>
+</ul>
+</section>
+<section id="java-8">
+<h2>3. Типовые аннотации (Java 8+)<a class="headerlink" href="#java-8" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Аннотации для типов: List&lt;&#64;NonNull String&gt;.</p></li>
+<li><p>Повторяемые аннотации: &#64;Schedule(day=»Mon») &#64;Schedule(day=»Fri»).</p></li>
+</ul>
+</section>
+</section>
+<section id="rxjava">
+<h1>Лекция 13. RxJava<a class="headerlink" href="#rxjava" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="reactive-programming">
+<h2>1. Reactive Programming<a class="headerlink" href="#reactive-programming" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Работа с асинхронными потоками данных.</p></li>
+<li><p>Основные компоненты:
+- <strong>Observable</strong> — источник данных.
+- <strong>Observer</strong> — подписчик на данные.
+- <strong>Операторы</strong> (map, filter, flatMap).</p></li>
+</ul>
+</section>
+<section id="id76">
+<h2>2. Примеры<a class="headerlink" href="#id76" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Создание Observable:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Observable</span><span class="p">.</span><span class="na">just</span><span class="p">(</span><span class="s">&quot;Hello&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;World&quot;</span><span class="p">).</span><span class="na">subscribe</span><span class="p">(</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">::</span><span class="n">println</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+<li><p>Операторы:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Observable</span><span class="p">.</span><span class="na">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">).</span><span class="na">filter</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">).</span><span class="na">map</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">x</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="schedulers">
+<h2>3. Schedulers<a class="headerlink" href="#schedulers" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Управление потоками:
+- Schedulers.io() — для I/O операций.
+- Schedulers.computation() — для вычислений.</p></li>
+<li><p>Методы: subscribeOn(), observeOn().</p></li>
+</ul>
+</section>
+<section id="id77">
+<h2>4. Особенности<a class="headerlink" href="#id77" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Ленивые вычисления (без подписки — нет выполнения).</p></li>
+<li><p>Обработка ошибок: onError().</p></li>
+</ul>
+</section>
+</section>
+<section id="reflection-api">
+<h1>Лекция 14. Reflection API<a class="headerlink" href="#reflection-api" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id78">
+<h2>1. Рефлексия<a class="headerlink" href="#id78" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Механизм исследования и изменения структуры программы во время выполнения.</p></li>
+<li><p>Основные классы: <code class="docutils literal notranslate"><span class="pre">Class</span></code>, <code class="docutils literal notranslate"><span class="pre">Field</span></code>, <code class="docutils literal notranslate"><span class="pre">Method</span></code>, <code class="docutils literal notranslate"><span class="pre">Constructor</span></code> из пакетов <code class="docutils literal notranslate"><span class="pre">java.lang</span></code> и <code class="docutils literal notranslate"><span class="pre">java.lang.reflect</span></code>.</p></li>
+</ul>
+</section>
+<section id="id79">
+<h2>2. Основные возможности<a class="headerlink" href="#id79" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Получение информации о классе: модификаторы, поля, методы, конструкторы.</p></li>
+<li><p>Создание объектов динамически:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Class</span><span class="o">&lt;?&gt;</span><span class="w"> </span><span class="n">clazz</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Class</span><span class="p">.</span><span class="na">forName</span><span class="p">(</span><span class="s">&quot;com.example.MyClass&quot;</span><span class="p">);</span>
+<span class="n">Constructor</span><span class="o">&lt;?&gt;</span><span class="w"> </span><span class="n">constructor</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clazz</span><span class="p">.</span><span class="na">getConstructor</span><span class="p">(</span><span class="kt">int</span><span class="p">.</span><span class="na">class</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+<span class="n">Object</span><span class="w"> </span><span class="n">instance</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">constructor</span><span class="p">.</span><span class="na">newInstance</span><span class="p">(</span><span class="mi">42</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;test&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+<li><p>Доступ к приватным полям и методам через <code class="docutils literal notranslate"><span class="pre">setAccessible(true)</span></code>.</p></li>
+</ul>
+</section>
+<section id="id80">
+<h2>3. Примеры<a class="headerlink" href="#id80" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Получение полей:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Field</span><span class="o">[]</span><span class="w"> </span><span class="n">fields</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clazz</span><span class="p">.</span><span class="na">getDeclaredFields</span><span class="p">();</span>
+</pre></div>
+</div>
+</li>
+<li><p>Вызов метода:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Method</span><span class="w"> </span><span class="n">method</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">clazz</span><span class="p">.</span><span class="na">getMethod</span><span class="p">(</span><span class="s">&quot;setName&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">String</span><span class="p">.</span><span class="na">class</span><span class="p">);</span>
+<span class="n">method</span><span class="p">.</span><span class="na">invoke</span><span class="p">(</span><span class="n">instance</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;New Name&quot;</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id81">
+<h2>4. Генерация и работа с массивами<a class="headerlink" href="#id81" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Создание массива:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span><span class="o">[]</span><span class="w"> </span><span class="n">array</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="o">[]</span><span class="p">)</span><span class="w"> </span><span class="n">Array</span><span class="p">.</span><span class="na">newInstance</span><span class="p">(</span><span class="kt">int</span><span class="p">.</span><span class="na">class</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="id82">
+<h2>5. Рефлексия и дженерики<a class="headerlink" href="#id82" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Получение информации о параметризованных типах через <code class="docutils literal notranslate"><span class="pre">ParameterizedType</span></code>.</p></li>
+</ul>
+</section>
+</section>
+<section id="id83">
+<h1>Лекция 15. Шаблоны проектирования<a class="headerlink" href="#id83" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id84">
+<h2>1. Основные категории шаблонов<a class="headerlink" href="#id84" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Порождающие (Creational)</strong>: Singleton, Builder, Factory.</p></li>
+<li><p><strong>Структурные (Structural)</strong>: Decorator, Adapter, Facade.</p></li>
+<li><p><strong>Поведенческие (Behavioral)</strong>: Observer, Strategy, Iterator.</p></li>
+</ul>
+</section>
+<section id="id85">
+<h2>2. Примеры шаблонов<a class="headerlink" href="#id85" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Singleton</strong>: Гарантирует единственный экземпляр класса.</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">Singleton</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kd">final</span><span class="w"> </span><span class="n">Singleton</span><span class="w"> </span><span class="n">INSTANCE</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Singleton</span><span class="p">();</span>
+<span class="w">    </span><span class="kd">private</span><span class="w"> </span><span class="nf">Singleton</span><span class="p">()</span><span class="w"> </span><span class="p">{}</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="n">Singleton</span><span class="w"> </span><span class="nf">getInstance</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">return</span><span class="w"> </span><span class="n">INSTANCE</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Builder</strong>: Упрощает создание сложных объектов.</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Person</span><span class="w"> </span><span class="n">person</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">PersonBuilder</span><span class="p">().</span><span class="na">name</span><span class="p">(</span><span class="s">&quot;Alice&quot;</span><span class="p">).</span><span class="na">age</span><span class="p">(</span><span class="mi">30</span><span class="p">).</span><span class="na">build</span><span class="p">();</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Decorator</strong>: Динамически добавляет функциональность.</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="n">Coffee</span><span class="w"> </span><span class="n">coffee</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Milk</span><span class="p">(</span><span class="k">new</span><span class="w"> </span><span class="n">SimpleCoffee</span><span class="p">());</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+<section id="mvc-model-view-controller">
+<h2>3. MVC (Model-View-Controller)<a class="headerlink" href="#mvc-model-view-controller" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Разделение на компоненты:
+- <strong>Модель (Model)</strong>: Данные и логика.
+- <strong>Вид (View)</strong>: Отображение.
+- <strong>Контроллер (Controller)</strong>: Обработка ввода.</p></li>
+</ul>
+</section>
+</section>
+<section id="junit-framework">
+<h1>Лекция 16. JUnit Framework<a class="headerlink" href="#junit-framework" title="Ссылка на этот заголовок">¶</a></h1>
+<section id="id86">
+<h2>1. Основы модульного тестирования<a class="headerlink" href="#id86" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Написание тестов для проверки отдельных модулей кода.</p></li>
+<li><p>Аннотации: <code class="docutils literal notranslate"><span class="pre">&#64;Test</span></code>, <code class="docutils literal notranslate"><span class="pre">&#64;Before</span></code>, <code class="docutils literal notranslate"><span class="pre">&#64;After</span></code>, <code class="docutils literal notranslate"><span class="pre">&#64;BeforeClass</span></code>, <code class="docutils literal notranslate"><span class="pre">&#64;AfterClass</span></code>.</p></li>
+</ul>
+</section>
+<section id="id87">
+<h2>2. Пример теста<a class="headerlink" href="#id87" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">org.junit.Test</span><span class="p">;</span>
+<span class="kn">import static</span><span class="w"> </span><span class="nn">org.junit.Assert.*</span><span class="p">;</span>
+
+<span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">MathTest</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nd">@Test</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">testAddition</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">assertEquals</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">3</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<section id="id88">
+<h2>3. Фикстуры<a class="headerlink" href="#id88" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>Общие настройки для тестов через методы <code class="docutils literal notranslate"><span class="pre">&#64;Before</span></code> и <code class="docutils literal notranslate"><span class="pre">&#64;After</span></code>.</p></li>
+</ul>
+</section>
+<section id="id89">
+<h2>4. Расширенные возможности<a class="headerlink" href="#id89" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p><strong>Игнорирование тестов</strong>: <code class="docutils literal notranslate"><span class="pre">&#64;Ignore</span></code>.</p></li>
+<li><p><strong>Проверка исключений</strong>:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="nd">@Test</span><span class="p">(</span><span class="n">expected</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ArithmeticException</span><span class="p">.</span><span class="na">class</span><span class="p">)</span>
+<span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">testDivisionByZero</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+<li><p><strong>Таймаут</strong>: <code class="docutils literal notranslate"><span class="pre">&#64;Test(timeout</span> <span class="pre">=</span> <span class="pre">1000)</span></code>.</p></li>
+</ul>
+</section>
+<section id="junit-5">
+<h2>5. JUnit 5<a class="headerlink" href="#junit-5" title="Ссылка на этот заголовок">¶</a></h2>
+<ul>
+<li><p>Новые аннотации: <code class="docutils literal notranslate"><span class="pre">&#64;BeforeEach</span></code>, <code class="docutils literal notranslate"><span class="pre">&#64;AfterAll</span></code>.</p></li>
+<li><p>Динамические тесты:</p>
+<div class="highlight-java notranslate"><div class="highlight"><pre><span></span><span class="nd">@TestFactory</span>
+<span class="n">Stream</span><span class="o">&lt;</span><span class="n">DynamicTest</span><span class="o">&gt;</span><span class="w"> </span><span class="nf">dynamicTests</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="p">...</span><span class="w"> </span><span class="p">}</span>
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="#">Java Programming</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Искать" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Навигация</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Ivan.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
